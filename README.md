@@ -1,19 +1,15 @@
 
 # Homework Assignment 3: Conditionals
 
-**Due: Before Lecture 13b**
+**Due: As listed on course schedule**
 
 *Note: Homework Assignment 3 should be completed individually.*
 
 
 # Objective
-So far, we have trusted that the user will input the desired type of values when we request them to do so.
-
 The theme of this homework is a "grade" calculator.
 
-We will now do some basic input checking to see if the input that the user provided is adequate for the task. There will be a little bit about loops in this homework, but the template already contains the loop structure, so you only need to worry about the steps that are required for each loop iteration.
-
-
+So far, we have trusted that the user will input the desired type of values when we request them to do so. We will now do some basic input checking to see if the input that the user provided is adequate for the task. There will be a little bit about loops in this homework, but the template already contains the loop structure, so you only need to worry about the steps that are required for each loop iteration.
 
 For this homework you need to complete three tasks:
 
@@ -371,4 +367,4 @@ The submission (check boxes after you complete each step):
 
 ## Submitting
 
-Submit to your GitHub repositories before the due date/time.
+Submit to Gradescope before the due date/time.
