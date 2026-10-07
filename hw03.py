@@ -22,17 +22,27 @@ def read_five_ints():
     and if the input converted to int is outside of [0,10], prints
     "Error in read_five_ints: input integer outside of range".
     """
-    for idx in range ( len(grades) ):
+    for idx in range (5):
         # for each idx in 0, 1,... 4 do:
         # check if the input is not a digit print error
         # convert to int
         # check if the int is not in the interval [0 to 10] print error
         # add the int to grades at index idx
 
-        in_str=(input("Give me the next grade in [0 to 10]:"))
+        in_str = (input("Give me the next grade in [0 to 10]:"))
+        #check if only digits
         if not in_str.isdigit():
             print("Error in read_five_ints: input string is not for an integer")
             exit()
+        num = int(in_str)
+        #check in range
+        if num < 0 or num > 10:
+            print("Error in read_five_ints: input integer outside of range")
+            exit()
+        #overwrite grade
+        grades[idx] = num
+
+           
     #Anything with this indentation is NO LONGER inside the loop
 
 
